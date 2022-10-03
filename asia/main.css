@@ -1,20 +1,407 @@
-.btn {
-  padding: 15px;
-  color:brown;
-  color:azure;
-  font-size: 15px;
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.42;
+  background: #001821;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper__main {
-  
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper-main {
+background: url("./img/1.png") center top no-repeat, url("./img/2.png") center center no-repeat; 
+}
+.container {
+  /* margin: 0 auto; */
+  margin-left: 389px;
+  width: 1140px;
+}
+
+.header {
+  height: 56px;
+  position: relative;
+  margin-bottom: 140px;
 }
 
 .logo {
+  display: block;
   position: absolute;
-width: 85px;
-height: 36px;
-left: 390px;
-top: 29px;
-
-background: url(лого.png);
+  width: 85px;
+  height: 36px;
+  left: 390px;
+  top: 29px;
 }
+
+.nav {
+position: absolute;
+top: 42px;
+left: 554px;
+}
+
+.contacts {
+position: absolute;
+width: 191px;
+height: 35px;
+left: 1340px;
+top: 27px;
+}
+
+.nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.nav__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 2px;
+}
+
+.contacts__phone-text {
+  color: #9A9A9A;
+  font-size: 11px;
+  height: 20px;
+  margin-top: 17px;
+  margin-bottom: 0px;
+}
+
+.contacts__shedule {
+  font-size: 13px;
+  text-decoration: underline;
+  margin-top: -8px;
+  margin-right: 4px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  width: 520px;
+  line-height: 1.38;
+  margin-bottom: 24px;
+}
+
+.hero__description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tours {
+  margin-bottom: 127px;
+}
+
+.tours__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 243px;
+  margin-bottom: 51px;
+}
+
+.tours__pic {
+width: 360px;
+margin-right: 25px;
+}
+.tours__pic:last-child {
+margin-right: 0;
+ }
+
+.tours__item {
+background: #fff;
+min-height: 448px;
+border-radius: 5px 5px 5px 5px;
+display: inline-block;
+margin-right: 25px;
+width: 360px;
+color: #666;
+}
+
+.tours__item:last-child {
+margin-right: 0;
+}
+
+.tours__item-title {
+color: #000;
+font-weight: 700;
+font-size: 24px;
+padding: 29px 232px 20px 22px;
+}
+
+.tours__feature {
+ display: inline-block;
+ vertical-align: middle;
+  margin-right: 18px;
+}
+
+.tours__feature:last-child {
+  margin-right: 0;
+}
+
+.tours__icon-features {
+  display: inline-block;
+  vertical-align: top;
+  width: 95px;
+  margin-right: 28px;
+}
+
+.tours__icon-feature {
+display: inline-block;
+margin-left: 28px;
+margin-right: -32px;
+margin-bottom: 6px;
+}
+
+.tours__feature-text {
+display: inline;
+vertical-align: top;
+margin-left: 41px;
+color: #666;
+font-size: 16px;
+}
+
+.tours__text {
+margin-left: 22px;
+line-height: 1.49;
+color: #303030;
+margin-bottom: 24px;
+}
+
+.tours__btn {
+  background: #fff;
+  border-radius: 35px;
+  border: 1px solid #F5170E;
+  padding: 16px 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 24px;
+}
+.tours__item-img {
+border-radius: 5px 5px 0px 0px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.news__title {
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+margin-bottom: 51px;
+}
+
+/* .container {
+  display: inline-block;
+} */
+.news__item {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+}
+
+.news__cover {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 22px 30px ;
+  min-height: 140px;
+}
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news__item-title {
+font-weight: bold;
+font-size: 24px;
+margin-top: 12px;
+}
+
+.news__text {
+font-size: 16px;
+margin-bottom: 27px;
+margin-top: 5px;
+}
+
+.news {
+margin-bottom: 48px;
+vertical-align:middle;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination__page, .pagination__list {
+display: inline-block;
+vertical-align: middle;
+}
+
+.pagination__page {
+margin-right: 25px;
+font-size: 16px;
+}
+
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__link--active .pagination__link {
+  background: #fff;
+  color: #F5170E;
+}
+
+.pagination__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+  /* margin-bottom: 145px; */
+}
+
+.about__content:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 145px;
+  width: 490px;
+  height: 505px;
+  background: url('./img/gates.png') center center / cover no-repeat;
+}
+
+.about__text {
+  background: url(./img/mountains.png) center center / cover no-repeat;
+  width: 785px;
+  height: 455px;
+  padding: 68px 81px;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 54px;
+  margin-left: -141px;
+  margin-top: 243px;
+  display: inline-block;
+  }
+
+.about__text p {
+  margin-bottom: 20px;
+  line-height: 27px;
+  padding-right: 121px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about__title {
+font-size: 36px;
+font-weight: bold;
+color: #000;
+margin-bottom: 37px;
+}
+
+.about__btn {
+position: absolute;
+left: 831px;
+top: 2614px;
+}
+
+.footer-container__content {
+border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+height: 146px;
+position: relative;
+vertical-align: middle;
+}
+
+.social__item {
+  display: inline-block;
+  left: 100px;
+  
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social {
+  position: absolute;
+  top: 49px;
+  left: 1086px;
+}
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+

@@ -5,19 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
   <title>Air Asia</title>
-  <style>
-    body {
-      background: url(./img/1.png), url(./img/2.png);
-      background-repeat: no-repeat, repeat-y;
-      color: #FFFFFF;
-    }
-  </style>
 </head>
 
 <body>
   <div class="wrapper wrapper-main">
-    <div class="container">
       <header class="header">
         <div class="container">
           <a class="logo" href="/">
@@ -36,11 +32,11 @@
               </li>
             </ul>
           </nav>
-          <adress class="contacts">
-            <a href="tel:+788007003030" class="contscts__phone">8 800 700 30 30</a>
-            <p class="contacts__shedule"></p>
-            <div class="contacts__dropdown"></div>
-          </adress>
+          <address class="contacts">
+            <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+            <p class="contacts__shedule">График работы</p>
+            <!-- <div class="contacts__dropdown"></div> -->
+          </address>
         </div>
       </header>
       <main class="main">
@@ -57,9 +53,9 @@
             <ul class="tours__list">
               <li class="tours__item">
                 <div class="tours__item-img">
-                  <img src="./img/river.png" alt="">
+                  <img src="./img/river.png" alt="" class="tours__pic">
                 </div>
-                <h3 class="tours__item-title">Тайланд</h3>
+                <h3 class="tours__item-title">Таиланд</h3>
                 <ul class="tours__features">
                   <li class="tours__feature">
                     <img src="./img/calendar.png" alt="" class="tours__icon-feature">
@@ -70,16 +66,13 @@
                     <p class="tours__feature-text">Завтраки</p>
                   </li>
                 </ul>
-                <div class="tours__desc">
-                  <p class="tours__desc-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+                  <p class="tours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
                     массового участия.</p>
-                </div>
                 <a href="" class="tours__btn">Смотреть</a>
               </li>
-              <ul class="tours__features">
-              <li class="tours__feature">
-                <div class="tours__img">
-                  <img src="./img/pool.png" alt="">
+              <li class="tours__item">
+                <div class="tours__item-img">
+                  <img src="./img/pool.png" alt="" class="tours__pic">
                 </div>
                 <h3 class="tours__item-title">Бали</h3>
                 <ul class="tours__features">
@@ -92,16 +85,13 @@
                     <p class="tours__feature-text">Завтраки</p>
                   </li>
                 </ul>
-                <div class="tours__desc">
-                  <p class="tours__desc-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+                  <p class="tours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
                     массового участия.</p>
-                </div>
                 <a href="" class="tours__btn">Смотреть</a>
               </li>
-              <ul class="tours__features">
-              <li class="tours__feature">
+              <li class="tours__item">
                 <div class="tours__item-img">
-                  <img src="./img/ocean.png" alt="">
+               <img src="./img/ocean.png" alt="" class="tours__pic">
                 </div>
                 <h3 class="tours__item-title">Индонезия</h3>
                 <ul class="tours__features">
@@ -114,77 +104,84 @@
                     <p class="tours__feature-text">Завтраки</p>
                   </li>
                 </ul>
-                <div class="tours__desc">
-                  <p class="tours__desc-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+                  <p class="tours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
                     массового участия.</p>
-                </div>
                 <a href="" class="tours__btn">Смотреть</a>
               </li>
-            </ul>
+              </ul>
           </div>
         </section>
         <section class="news">
-        <div class="contaner">
+        <div class="container">
           <h2 class="news__title title">Новости и акции</h2>
           <ul class="news__list">
             <li class="news__item">
               <div class="news__item-img">
-                <img src="./img/plain.png" alt="">
+                <img src="./img/plain.png" alt="" class="news__pic">
               </div>
-              <div class="news__item-date">
-                <p class="news__item-month">Декабрь 2019</p>
-              </div>
-              <div class="news__item-title">Дешевые путевки на Новый год!</div>
-              <div class="news__item-desc">
-                <p class="news__item-text">Проведи Новый год в Тайланде</p>
+              <div class="news__content">
+                <time class="news__date">Декабрь 2019</time>
+                <h3 class="news__item-title">Дешевые путевки на Новый Год!</h3>
+                <p class="news__text">Проведи Новый год в Тайланде</p>
               </div>
             </li>
             <li class="news__item">
               <div class="news__item-img">
-                <img src="./img/Surfer.png" alt="">
+                <img src="./img/Surfer.png" alt="" class="news__pic">
               </div>
-              <div class="news__item-date">
-                <p class="news__item-month">Декабрь 2019</p>
-              </div>
-              <div class="news__item-title">Акция для серфигностов!</div>
-              <div class="news__item-desc">
-                <p class="news__item-text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+              <div class="news__content">
+                <time class="news__date">Декабрь 2019</time>
+                <h3 class="news__item-title">Акция для серфигностов!</h3>
+                <p class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
               </div>
             </li>
           </ul>
         </section>
           <div class="pagination">
             <div class="pagination__page">Страница 1 из 7</div>
-            <a href="" class="pagination__prev"></a>
             <ul class="pagination__list">
-              <li class="pagination__item">1</li>
-              <li class="pagination__item">2</li>
-              <li class="pagination__item">3</li>
-              <li class="pagination__item">4</li>
-              <li class="pagination__item">5</li>
-              <li class="pagination__item">6</li>
-              <li class="pagination__item">7</li>
-            <a href="#" class="pagination__next"></a>
-          </ul>
+              <li class="pagination__item  pagination__link--active">
+                <a href="#" class="pagination__link">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">6</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">7</a>
+              </li>
+           </ul>
           </div>
-        </div>
+        </section>
         <section class="about">
         <div class="container">
-          <img src="./img/gates.png" alt="" class="about__decor">
-          <h2 class="about_title title">О нас</h2>
-            <img src="./img/mountains.png" alt="">
-          </div>
-          <div class="about__item-desc">
-            <p class="about__item-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+          <div class="about__content">
+            <div class="about__text">
+              <h2 class="about__title title">О нас</h2>
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
               осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
-              домашних условиях. 
-            </з>
+              домашних условиях.
+              </p> 
+            </div>
+            <a href="" class="about__btn btn">Подробнее</a>
           </div>
         </div>
       </section>
       </main>
-      <footer class="footer">
-        <div class="container">
+      <footer class="footer-container">
+        <div class="container footer-container__content">
+         <div class="footer">
           <a class="logo" href="/">
             <img src="./img/лого.png" alt="" class="logo__pic">
           </a>
@@ -202,30 +199,34 @@
             </ul>
           </nav>
           <ul class="social">
-            <li class="social_item">
-              <div class="social__item">
-                <a href="https://telegram.org/"><img src="./img/telegram.png" alt=""></a>
-              </div>
+            <li class="social__item">
+                <a href="https://telegram.org/" class="social__link">
+                  <img src="./img/telegram.png" alt="" class="social__pic">
+                </a>
             </li>
             <li class="social__item">
-              <a href="https://vk.com/"><img src="./img/vk.png" alt=""></a>
+              <a href="https://vk.com/" class="social__link">
+                <img src="./img/vk.png" alt="" class="social__pic">
+              </a>
             </li>
             <li class="social__item">
-              <a href="https://www.facebook.com/"><img src="./img/f.png" alt=""></a>
+              <a href="https://www.facebook.com/" class="social__link">
+                <img src="./img/f.png" alt="" class="social__pic">
+              </a>
             </li>
             <li class="social__item">
-              <a href="https://www.instagram.com/"><img src="./img/in.png" alt=""></a>
+              <a href="https://www.instagram.com/" class="social__link">
+                <img src="./img/in.png" alt="" class="social__pic">
+              </a>
             </li>
           </ul>
-          <adress class="contacts">
-            <a class="contscts__phone"></a>
+          <address class="contacts">
             <p class="contacts__phone-text">Бесплатный звонок по России</p>
-            <a href="tel:+788007003030" class="contscts__phone">8 800 700 30 30</a>
-          </adress>
-
+            <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+        </div>
         </div>
       </footer>
-    </div>
 
   </div>
 </body>

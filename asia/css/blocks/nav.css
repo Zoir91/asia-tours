@@ -1,0 +1,15 @@
+.nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.nav__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #F5170E;
+  ;
+}

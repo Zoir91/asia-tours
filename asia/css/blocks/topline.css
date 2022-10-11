@@ -1,0 +1,17 @@
+.top-line {
+  min-height: 412px;
+  background: #F2F2F2 url(../../img/headline.png) right 20% top no-repeat;
+  flex-direction: column;
+  padding-bottom: 23px;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-line__header {
+  margin-bottom: 92px;
+}

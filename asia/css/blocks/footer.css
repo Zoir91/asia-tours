@@ -1,0 +1,35 @@
+.footer__line {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-container__section {
+  min-height: 135px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+}
+
+.inner-footer__container {
+  padding: 45px 0;
+}
+
+.inner-footer {
+  margin-top: auto;
+}

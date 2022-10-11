@@ -11,6 +11,7 @@
 .btn:hover {
   background: #fff;
   border: 1px solid #F5170E;
+  color: #F5170E;
 }
 
 .tours__btn {

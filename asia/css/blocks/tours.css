@@ -79,8 +79,8 @@
 }
 
 .tours__feature {
- display: inline-block;
- vertical-align: middle;
+  display: flex;
+  align-items: center;
   margin-right: 26px;
 }
 
@@ -88,22 +88,11 @@
   margin-right: 0;
 }
 
-.tours__icon-features {
-  display: inline-block;
-  vertical-align: middle;
-  width: 95px;
-  margin-right: 28px;
-}
-
 .tours__icon-feature {
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 8px;
 }
 
 .tours__feature-text {
-  display: inline;
-  vertical-align: top;
   color: #666;
   font-size: 16px;
   line-height: 22px;

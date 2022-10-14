@@ -1,4 +1,14 @@
 .logo {
   display: inline-block;
   margin-right: 79px;
+  width: 85px;
+}
+
+.logo__pic {
+  width: 100%;
+}
+
+.logo--inner {
+  width: 98px;
+  margin-right: 67px;
 }

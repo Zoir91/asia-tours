@@ -1,7 +1,7 @@
 .inner-section {
   background: #fff;
   color: #1A1B1E;
-  padding: 73px 0 52px 290px;
+  padding: 87px 0 62px;
 }
 
 .inner-section--bg--grey {
@@ -11,6 +11,5 @@
 .inner-section__title {
   font-size: 48px;
   font-weight: 700;
-  margin-left: 90px;
   margin-bottom: 65px;
 }

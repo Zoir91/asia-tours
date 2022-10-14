@@ -1,11 +1,11 @@
 .page-content {
-  background: #F2F2F2;
+  background: #fff;
   color: #303030;
-  padding: 98px 0;
+  padding: 98px 0 84px 0;
 }
 
 .services {
-  margin-bottom: 17px;
+  margin-bottom: 61px;
   display: flex;
   flex-direction: column;
 }
@@ -15,9 +15,12 @@
   margin-bottom: 42px;
 }
 
+.service:last-child {
+  margin: 0;
+}
 .services__img {
-  width: 35%;
-  margin-right: 10%;
+  width: 40.4%;
+  margin-right: 5%;
 }
 
 .service__content {

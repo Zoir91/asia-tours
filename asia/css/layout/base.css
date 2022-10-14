@@ -61,14 +61,13 @@ body, html {
   flex: 1;
 }
 
-.main__index {
-  margin-bottom: 55px;
+.wrapper__content--main {
+  margin-bottom: 51px;
 }
 
 .container {
   margin: 0 auto;
   width: 1140px;
   position: relative;
-  min-height: 197px;
 }
 

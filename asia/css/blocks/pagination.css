@@ -8,6 +8,11 @@
   color: #000;
 }
 
+.pagination--theme-services {
+  padding-left: 43px;
+}
+
+
 .pagination--theme-dark .pagination__link--active .pagination__link {
   color: #fff;
   background: #F5170E;
@@ -35,7 +40,13 @@ font-size: 16px;
 
 .pagination__item {
   text-align: center;
+  margin-right: 2px;
 }
+
+.pagination__item:last-child {
+  margin: 0;
+}
+
 .pagination__link--active .pagination__link {
   background: #fff;
   color: #F5170E;
@@ -50,4 +61,5 @@ font-size: 16px;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  font-size: 16px;
 }

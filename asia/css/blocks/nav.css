@@ -1,6 +1,6 @@
 .nav__list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .nav__item {
   margin-right: 54px;

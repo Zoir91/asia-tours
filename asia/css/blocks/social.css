@@ -1,8 +1,5 @@
 .social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
-  
+  margin-right: 10px;
 }
 
 .social__item:last-child {
@@ -10,12 +7,21 @@
 }
 
 .social {
+  display: flex;
+  align-items: center;
   margin-right: 74px;
-  }
+}
 
 .social__link {
-  display: block;
   text-decoration: none;
   width: 36px;
   height: 36px;
+}
+
+.social__pic {
+  opacity: .5;
+}
+
+.social__pic:hover {
+  opacity: 1;
 }

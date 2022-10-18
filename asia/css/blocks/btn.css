@@ -7,19 +7,18 @@
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  font-size: 14px;
 }
 
 .btn:hover {
-  background: #fff;
-  border: 1px solid #F5170E;
-  color: #F5170E;
+  background: #DA0100;
 }
 
 .tours__btn {
   background: #fff;
   border-radius: 35px;
   border: 1px solid #F5170E;
-  padding: 16px 28px;
+  padding: 17px 30px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -30,4 +29,18 @@
 .tours__btn:hover {
   background: #F5170E;
   color: #fff;
+}
+
+.btn--color--grey {
+  background: #8E8E8E;
+  padding: 18px 44px;
+}
+
+.btn--color--grey:hover {
+  background: #2B2B2B;
+  color: #fff;
+}
+
+.btn--welcome {
+  padding: 18px 59px;
 }

@@ -12,6 +12,7 @@
   padding: 20px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  border: 1px solid #fff;
 }
 
 .form__input:focus {
@@ -30,6 +31,7 @@
 .form__input--textarea {
   height: 235px;
   padding: 29px 31px;
+  resize: none;
 }
 
 .form__controls {

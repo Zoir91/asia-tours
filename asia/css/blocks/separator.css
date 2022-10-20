@@ -1,6 +1,6 @@
 .separator {
   background: url("../../img/separatorbg.png") center center no-repeat;
-  height: 363px;
+  min-height: 363px;
   display: flex;
   flex-direction: column;
   justify-content: center;

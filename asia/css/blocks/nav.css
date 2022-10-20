@@ -9,8 +9,13 @@
 .nav__link {
   font-size: 14px;
   text-decoration: none;
+  transition: color .3s;
 }
 
 .nav__link:hover {
+  color: #F5170E;
+}
+
+.nav__link--active {
   color: #F5170E;
 }

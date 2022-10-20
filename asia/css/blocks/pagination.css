@@ -12,6 +12,7 @@
 .pagination--theme-services .pagination__link--active .pagination__link {
   color: #fff;
   background: #F5170E;
+  transition: background-color .3s, color .3s;
 }
 
 .pagination--theme-review {
@@ -23,14 +24,14 @@
   background: #F5170E;
 }
 
-.pagination--theme-dark .pagination__link--active .pagination__link {
-  color: #fff;
-  background: #F5170E;
-}
-
 .pagination__link:hover {
   background: #fff;
   color: #F5170E;
+}
+
+.pagination__link--services:hover {
+  color: #fff;
+  background: #F5170E;
 }
 
 .pagination__page {
@@ -55,6 +56,7 @@
 .pagination__link--active .pagination__link {
   background: #fff;
   color: #F5170E;
+  transition: background-color .3s, color .3s;
 }
 
 .pagination__link {
@@ -67,4 +69,5 @@
   font-weight: bold;
   line-height: 32px;
   font-size: 16px;
+  transition: background-color .3s, color .3s;
 }

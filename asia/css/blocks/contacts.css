@@ -32,6 +32,7 @@
 .dropdown__link {
   color: #98A4A8;
   font-size: 13px;
+  transition: color .3s;
 }
 
 .dropdown__item {
@@ -67,6 +68,18 @@
   opacity: 0;
   transition: opacity .4s;
   left: -9999px;
+}
+
+.dropdown__menu:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: 45px;
+  background: #ededed;
+  transform: rotate(45deg);
 }
 
 .dropdown__menu:before {
